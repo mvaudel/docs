@@ -194,6 +194,27 @@ We recommend that you use the [Google Chrome browser](https://www.google.com/chr
 
 After the restart of Google Chrome the certificate is ready for network or secure web site client authentication.
 
+
+The [Mozilla Firefox browser](https://www.mozilla.org/en-US/firefox/new/) has also been successfully tested by our users.
+
+1. Open _Mozilla Firefox_.
+
+2. Open the _Settings_ using the cogwheel ⚙️.
+
+3. Select _🔒 Privacy & Security_.
+
+4. Under _Certificates_ select _View Certificates_ to open the _Certificate Manager_.
+
+5. Under _Your Certificates_ click on _Import..._.
+
+6. Browse and select your `.p12` file on your local machine and enter the `TLS passphrase` that you got on Signal.
+
+7. Restart _Firefox_.
+
+After the restart of Mozilla Firefox the certificate is ready for network or secure web site client authentication.
+
+> Tip: Workbench works nicely in [Firefox Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers). You can use Workbench in a dedicated container to add another layer of privacy.
+
 :::
 
 ## 3. Open your new Workbench
@@ -203,7 +224,7 @@ After the restart of Google Chrome the certificate is ready for network or secur
 Make sure you are connected to the VPN before accessing Workbench.
 :::
 
-1. Open your web browser (we recommend [Google Chrome browser](https://www.google.com/chrome/)).
+1. Open your web browser (we recommend the [Google Chrome browser](https://www.google.com/chrome/) but the [Mozilla Firefox browser](https://www.mozilla.org/en-US/firefox/new/) has also been successfully tested by our users).
 
 2. Type in the URL address to your lab in your browser.
 
